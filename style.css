@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
 
 /* Universal style */
 *{
@@ -91,3 +91,121 @@ img{
     height: 30px;
     margin-top: 10px;
 }
+
+/* Second Section */
+
+.second-section{
+    height: 500px;
+}
+
+.second-section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-section h1{
+    padding-top: 50px;
+    font-size: 36px;
+    color: #1F2937;
+}   
+
+.information-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    width: 100%;
+    height: 100%;
+    gap: 60px;
+}
+
+.info-container{
+    width: 300px;
+    height: 300px;
+}
+
+.information-items .info-container img{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.information-items .info-container p{
+    text-align: center;
+}
+
+/* Third Section */
+
+.third-section{
+    height: 400px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section .container{
+    width: 70%;
+    height: 70%;    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.third-section p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.third-section h1{
+    align-self: flex-end;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+/* Fourth Section */
+
+.fourth-section{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-section .action-container{
+    width: 60%;
+    height: 60%;
+    background-color: #3882f6;
+    color: #F9FAF8;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fourth-section .action-container button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.footer{
+    height: 70px;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
